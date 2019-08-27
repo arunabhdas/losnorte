@@ -16,6 +16,16 @@ class UsersViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureDataSource()
+    }
+    
+    
+    public func configureDataSource() {
+        dataSource = UITableViewDiffableDataSource<Section, User>(tableView: tableView) { (tableView, indexPath, user) -> UITableViewCell? in
+            let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+            cell.textLabel?.text = user.name
+            return cell
+        }
     }
     
     @IBAction private func didTapAddButton() {
