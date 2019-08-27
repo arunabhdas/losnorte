@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B70F47F4231475D5005573EF /* MoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70F47F3231475D5005573EF /* MoreContentView.swift */; };
+		B773FD35230ED875000505CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B773FD34230ED875000505CF /* AppDelegate.swift */; };
+		B773FD37230ED875000505CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B773FD36230ED875000505CF /* SceneDelegate.swift */; };
+		B773FD39230ED875000505CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B773FD38230ED875000505CF /* ContentView.swift */; };
+		B773FD3B230ED878000505CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B773FD3A230ED878000505CF /* Assets.xcassets */; };
+		B773FD3E230ED878000505CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B773FD3D230ED878000505CF /* Preview Assets.xcassets */; };
+		B773FD41230ED878000505CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B773FD3F230ED878000505CF /* LaunchScreen.storyboard */; };
+		B773FD4C230ED878000505CF /* TerraVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B773FD4B230ED878000505CF /* TerraVisionTests.swift */; };
+		B773FD57230ED878000505CF /* TerraVisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B773FD56230ED878000505CF /* TerraVisionUITests.swift */; };
+		B773FD65230F168C000505CF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B773FD64230F168C000505CF /* MapView.swift */; };
+		B773FD67230F1904000505CF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B773FD66230F1904000505CF /* CircleImage.swift */; };
+		B773FD6A230F1BDE000505CF /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = B773FD69230F1BDE000505CF /* landmarkData.json */; };
+		B773FD6D230F1C1B000505CF /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B773FD6C230F1C1B000505CF /* Landmark.swift */; };
+		B773FD70230F1DC5000505CF /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B773FD6F230F1DC5000505CF /* LandmarkDetail.swift */; };
+		B773FD74230F23CD000505CF /* FavoritesForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B773FD73230F23CD000505CF /* FavoritesForm.swift */; };
+		B773FD76230F2865000505CF /* SearchForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B773FD75230F2865000505CF /* SearchForm.swift */; };
+		B773FD78230F2EC6000505CF /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = B773FD77230F2EC6000505CF /* drinks.json */; };
+		B773FD7A230F3193000505CF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B773FD79230F3193000505CF /* Data.swift */; };
+		B773FD7C231062ED000505CF /* MoreForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B773FD7B231062ED000505CF /* MoreForm.swift */; };
+		B773FD7E23107435000505CF /* FeedForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B773FD7D23107435000505CF /* FeedForm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B773FD48230ED878000505CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B773FD29230ED874000505CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B773FD30230ED874000505CF;
+			remoteInfo = TerraVision;
+		};
+		B773FD53230ED878000505CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B773FD29230ED874000505CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B773FD30230ED874000505CF;
+			remoteInfo = TerraVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B70F47F3231475D5005573EF /* MoreContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreContentView.swift; sourceTree = "<group>"; };
+		B773FD31230ED875000505CF /* TerraVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B773FD34230ED875000505CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B773FD36230ED875000505CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B773FD38230ED875000505CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B773FD3A230ED878000505CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B773FD3D230ED878000505CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B773FD40230ED878000505CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B773FD42230ED878000505CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B773FD47230ED878000505CF /* TerraVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerraVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B773FD4B230ED878000505CF /* TerraVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraVisionTests.swift; sourceTree = "<group>"; };
+		B773FD4D230ED878000505CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B773FD52230ED878000505CF /* TerraVisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerraVisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B773FD56230ED878000505CF /* TerraVisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraVisionUITests.swift; sourceTree = "<group>"; };
+		B773FD58230ED878000505CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B773FD64230F168C000505CF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B773FD66230F1904000505CF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		B773FD69230F1BDE000505CF /* landmarkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		B773FD6C230F1C1B000505CF /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		B773FD6F230F1DC5000505CF /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		B773FD73230F23CD000505CF /* FavoritesForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesForm.swift; sourceTree = "<group>"; };
+		B773FD75230F2865000505CF /* SearchForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForm.swift; sourceTree = "<group>"; };
+		B773FD77230F2EC6000505CF /* drinks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
+		B773FD79230F3193000505CF /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B773FD7B231062ED000505CF /* MoreForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreForm.swift; sourceTree = "<group>"; };
+		B773FD7D23107435000505CF /* FeedForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedForm.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B773FD2E230ED874000505CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B773FD44230ED878000505CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B773FD4F230ED878000505CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B70F47EE231473C0005573EF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B773FD75230F2865000505CF /* SearchForm.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B70F47EF231473DC005573EF /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				B773FD7D23107435000505CF /* FeedForm.swift */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		B70F47F1231474C6005573EF /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B773FD6F230F1DC5000505CF /* LandmarkDetail.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		B70F47F2231474E9005573EF /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				B773FD73230F23CD000505CF /* FavoritesForm.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		B70F47F5231475DC005573EF /* More */ = {
+			isa = PBXGroup;
+			children = (
+				B70F47F3231475D5005573EF /* MoreContentView.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		B773FD28230ED874000505CF = {
+			isa = PBXGroup;
+			children = (
+				B773FD33230ED875000505CF /* TerraVision */,
+				B773FD4A230ED878000505CF /* TerraVisionTests */,
+				B773FD55230ED878000505CF /* TerraVisionUITests */,
+				B773FD32230ED875000505CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B773FD32230ED875000505CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B773FD31230ED875000505CF /* TerraVision.app */,
+				B773FD47230ED878000505CF /* TerraVisionTests.xctest */,
+				B773FD52230ED878000505CF /* TerraVisionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B773FD33230ED875000505CF /* TerraVision */ = {
+			isa = PBXGroup;
+			children = (
+				B773FD6E230F1DA9000505CF /* Views */,
+				B773FD6B230F1C05000505CF /* Models */,
+				B773FD68230F1B95000505CF /* Resources */,
+				B773FD34230ED875000505CF /* AppDelegate.swift */,
+				B773FD36230ED875000505CF /* SceneDelegate.swift */,
+				B773FD38230ED875000505CF /* ContentView.swift */,
+				B773FD3A230ED878000505CF /* Assets.xcassets */,
+				B773FD3F230ED878000505CF /* LaunchScreen.storyboard */,
+				B773FD42230ED878000505CF /* Info.plist */,
+				B773FD3C230ED878000505CF /* Preview Content */,
+			);
+			path = TerraVision;
+			sourceTree = "<group>";
+		};
+		B773FD3C230ED878000505CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B773FD3D230ED878000505CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B773FD4A230ED878000505CF /* TerraVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				B773FD4B230ED878000505CF /* TerraVisionTests.swift */,
+				B773FD4D230ED878000505CF /* Info.plist */,
+			);
+			path = TerraVisionTests;
+			sourceTree = "<group>";
+		};
+		B773FD55230ED878000505CF /* TerraVisionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B773FD56230ED878000505CF /* TerraVisionUITests.swift */,
+				B773FD58230ED878000505CF /* Info.plist */,
+			);
+			path = TerraVisionUITests;
+			sourceTree = "<group>";
+		};
+		B773FD68230F1B95000505CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B773FD69230F1BDE000505CF /* landmarkData.json */,
+				B773FD77230F2EC6000505CF /* drinks.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B773FD6B230F1C05000505CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B773FD6C230F1C1B000505CF /* Landmark.swift */,
+				B773FD79230F3193000505CF /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B773FD6E230F1DA9000505CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B70F47F1231474C6005573EF /* Search */,
+				B70F47EF231473DC005573EF /* Places */,
+				B70F47EE231473C0005573EF /* Home */,
+				B773FD64230F168C000505CF /* MapView.swift */,
+				B773FD66230F1904000505CF /* CircleImage.swift */,
+				B70F47F2231474E9005573EF /* Post */,
+				B773FD7B231062ED000505CF /* MoreForm.swift */,
+				B70F47F5231475DC005573EF /* More */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B773FD30230ED874000505CF /* TerraVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B773FD5B230ED878000505CF /* Build configuration list for PBXNativeTarget "TerraVision" */;
+			buildPhases = (
+				B773FD2D230ED874000505CF /* Sources */,
+				B773FD2E230ED874000505CF /* Frameworks */,
+				B773FD2F230ED874000505CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TerraVision;
+			productName = TerraVision;
+			productReference = B773FD31230ED875000505CF /* TerraVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B773FD46230ED878000505CF /* TerraVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B773FD5E230ED878000505CF /* Build configuration list for PBXNativeTarget "TerraVisionTests" */;
+			buildPhases = (
+				B773FD43230ED878000505CF /* Sources */,
+				B773FD44230ED878000505CF /* Frameworks */,
+				B773FD45230ED878000505CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B773FD49230ED878000505CF /* PBXTargetDependency */,
+			);
+			name = TerraVisionTests;
+			productName = TerraVisionTests;
+			productReference = B773FD47230ED878000505CF /* TerraVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B773FD51230ED878000505CF /* TerraVisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B773FD61230ED878000505CF /* Build configuration list for PBXNativeTarget "TerraVisionUITests" */;
+			buildPhases = (
+				B773FD4E230ED878000505CF /* Sources */,
+				B773FD4F230ED878000505CF /* Frameworks */,
+				B773FD50230ED878000505CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B773FD54230ED878000505CF /* PBXTargetDependency */,
+			);
+			name = TerraVisionUITests;
+			productName = TerraVisionUITests;
+			productReference = B773FD52230ED878000505CF /* TerraVisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B773FD29230ED874000505CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = ArunabhDas;
+				TargetAttributes = {
+					B773FD30230ED874000505CF = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					B773FD46230ED878000505CF = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B773FD30230ED874000505CF;
+					};
+					B773FD51230ED878000505CF = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B773FD30230ED874000505CF;
+					};
+				};
+			};
+			buildConfigurationList = B773FD2C230ED874000505CF /* Build configuration list for PBXProject "TerraVision" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B773FD28230ED874000505CF;
+			productRefGroup = B773FD32230ED875000505CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B773FD30230ED874000505CF /* TerraVision */,
+				B773FD46230ED878000505CF /* TerraVisionTests */,
+				B773FD51230ED878000505CF /* TerraVisionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B773FD2F230ED874000505CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B773FD41230ED878000505CF /* LaunchScreen.storyboard in Resources */,
+				B773FD6A230F1BDE000505CF /* landmarkData.json in Resources */,
+				B773FD3E230ED878000505CF /* Preview Assets.xcassets in Resources */,
+				B773FD78230F2EC6000505CF /* drinks.json in Resources */,
+				B773FD3B230ED878000505CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B773FD45230ED878000505CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B773FD50230ED878000505CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B773FD2D230ED874000505CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B773FD35230ED875000505CF /* AppDelegate.swift in Sources */,
+				B773FD7A230F3193000505CF /* Data.swift in Sources */,
+				B773FD65230F168C000505CF /* MapView.swift in Sources */,
+				B773FD37230ED875000505CF /* SceneDelegate.swift in Sources */,
+				B773FD7C231062ED000505CF /* MoreForm.swift in Sources */,
+				B773FD74230F23CD000505CF /* FavoritesForm.swift in Sources */,
+				B773FD39230ED875000505CF /* ContentView.swift in Sources */,
+				B773FD76230F2865000505CF /* SearchForm.swift in Sources */,
+				B773FD67230F1904000505CF /* CircleImage.swift in Sources */,
+				B773FD7E23107435000505CF /* FeedForm.swift in Sources */,
+				B773FD6D230F1C1B000505CF /* Landmark.swift in Sources */,
+				B773FD70230F1DC5000505CF /* LandmarkDetail.swift in Sources */,
+				B70F47F4231475D5005573EF /* MoreContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B773FD43230ED878000505CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B773FD4C230ED878000505CF /* TerraVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B773FD4E230ED878000505CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B773FD57230ED878000505CF /* TerraVisionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B773FD49230ED878000505CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B773FD30230ED874000505CF /* TerraVision */;
+			targetProxy = B773FD48230ED878000505CF /* PBXContainerItemProxy */;
+		};
+		B773FD54230ED878000505CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B773FD30230ED874000505CF /* TerraVision */;
+			targetProxy = B773FD53230ED878000505CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B773FD3F230ED878000505CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B773FD40230ED878000505CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B773FD59230ED878000505CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B773FD5A230ED878000505CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B773FD5C230ED878000505CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TerraVision/Preview Content\"";
+				DEVELOPMENT_TEAM = G7Y435RZV6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TerraVision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.terravision.TerraVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B773FD5D230ED878000505CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TerraVision/Preview Content\"";
+				DEVELOPMENT_TEAM = G7Y435RZV6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TerraVision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.terravision.TerraVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B773FD5F230ED878000505CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7Y435RZV6;
+				INFOPLIST_FILE = TerraVisionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.terravision.TerraVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerraVision.app/TerraVision";
+			};
+			name = Debug;
+		};
+		B773FD60230ED878000505CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7Y435RZV6;
+				INFOPLIST_FILE = TerraVisionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.terravision.TerraVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerraVision.app/TerraVision";
+			};
+			name = Release;
+		};
+		B773FD62230ED878000505CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7Y435RZV6;
+				INFOPLIST_FILE = TerraVisionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.terravision.TerraVisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TerraVision;
+			};
+			name = Debug;
+		};
+		B773FD63230ED878000505CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7Y435RZV6;
+				INFOPLIST_FILE = TerraVisionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.mobile.terravision.TerraVisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TerraVision;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B773FD2C230ED874000505CF /* Build configuration list for PBXProject "TerraVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B773FD59230ED878000505CF /* Debug */,
+				B773FD5A230ED878000505CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B773FD5B230ED878000505CF /* Build configuration list for PBXNativeTarget "TerraVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B773FD5C230ED878000505CF /* Debug */,
+				B773FD5D230ED878000505CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B773FD5E230ED878000505CF /* Build configuration list for PBXNativeTarget "TerraVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B773FD5F230ED878000505CF /* Debug */,
+				B773FD60230ED878000505CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B773FD61230ED878000505CF /* Build configuration list for PBXNativeTarget "TerraVisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B773FD62230ED878000505CF /* Debug */,
+				B773FD63230ED878000505CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B773FD29230ED874000505CF /* Project object */;
+}

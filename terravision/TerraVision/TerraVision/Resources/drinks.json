@@ -1,0 +1,17 @@
+
+[
+    {
+        "id": 1001,
+        "name": "Cappuccino",
+        "imageName": "Cappuccino",
+        "description": "Cappuccino drink",
+        "category": "hot"
+    },
+    {
+        "id": 1001,
+        "name": "Cappuccino",
+        "imageName": "Cappuccino",
+        "description": "Cappuccino drink",
+        "category": "hot"
+    },
+]
