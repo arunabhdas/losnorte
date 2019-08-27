@@ -11,6 +11,9 @@ class UsersViewController: UITableViewController {
     
     private var users = [User]()
     
+    private var dataSource: UITableViewDiffableDataSource<Section, User>!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -24,3 +27,14 @@ class UsersViewController: UITableViewController {
     }
     
 }
+
+
+extension UsersViewController {
+    fileprivate enum Section {
+        case main
+    }
+}
+
+
+
+
