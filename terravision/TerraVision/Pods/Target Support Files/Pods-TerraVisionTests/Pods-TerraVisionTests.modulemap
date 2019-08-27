@@ -1,0 +1,6 @@
+framework module Pods_TerraVisionTests {
+  umbrella header "Pods-TerraVisionTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
