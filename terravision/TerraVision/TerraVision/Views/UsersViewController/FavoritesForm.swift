@@ -4,6 +4,7 @@
 //
 //
 
+
 import SwiftUI
 
 struct FavoritesForm : View {
@@ -20,7 +21,7 @@ struct FavoritesForm : View {
                         .padding(.bottom, -130)
                         .padding()
                 }
-            }.navigationBarTitle("More")
+            }.navigationBarTitle("Search")
         }
     }
 }
@@ -28,7 +29,8 @@ struct FavoritesForm : View {
 #if DEBUG
 struct FavoritesForm_Previews : PreviewProvider {
     static var previews: some View {
-        FavoritesForm()
+        SearchForm()
     }
 }
 #endif
+
