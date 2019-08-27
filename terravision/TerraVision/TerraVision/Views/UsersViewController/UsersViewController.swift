@@ -16,7 +16,13 @@ class UsersViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let add = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(didTapAddButton))
+    
+        self.navigationItem.rightBarButtonItem = add
         configureDataSource()
+        
+        didTapAddButton()
     }
     
     
@@ -29,11 +35,26 @@ class UsersViewController: UITableViewController {
     }
     
     @IBAction private func didTapAddButton() {
-        let alert = alertService.createUserAlert { (name) in
+        let alert = alertService.createUserAlert { [weak self] name in
+            self?.addNewUser(with: name)
             print(name)
         }
         
         present(alert, animated: true)
+    }
+    
+    private func addNewUser(with name: String) {
+        let user = User(name: name)
+        users.append(user)
+        createSnapshot(from: users)
+    }
+    
+    private func createSnapshot(from users: [User]) {
+        var snapshot = NSDiffableDataSourceSnapshot<Section, User>()
+        snapshot.appendSections([.main])
+        snapshot.appendItems(users)
+        dataSource.apply(snapshot, animatingDifferences: true)
+        
     }
     
 }
