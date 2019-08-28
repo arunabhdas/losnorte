@@ -26,7 +26,9 @@ struct FeedForm : View {
         NavigationView {
             List(placeList) { place in
                 HStack {
-                    Text(place.name)
+                    NavigationLink(destination: DetailsView(message: place.name)) {
+                        Text(place.name)
+                    }
                     if self.showDetails {
                         Text(place.type).foregroundColor(place.color)
                     }
@@ -44,6 +46,18 @@ struct FeedForm : View {
                         label: { Text("Add") }
                     )
             )
+        }
+    }
+}
+
+
+struct DetailsView: View {
+    let message: String
+
+    var body: some View {
+        VStack {
+            Text(message)
+                .font(.largeTitle)
         }
     }
 }
