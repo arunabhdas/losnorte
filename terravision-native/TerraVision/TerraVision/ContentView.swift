@@ -42,7 +42,7 @@ struct ContentView: View {
             MoreContentView()
                 .tabItem {
                     VStack {
-                        Image(systemName: "rectangle.stack.fill")
+                        Image(systemName: "ellipsis")
                         Text("More")
                     }
             }.tag(5)
